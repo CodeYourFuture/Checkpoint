@@ -33,5 +33,12 @@
         "dayName": "Friday",
         "occurrence": "last",
         "descriptionURL": "https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt"
-    }
+    },
+        {
+            "name": "World Octopus Day",
+            "monthName": "March",
+            "dayName": "Monday",
+            "occurrence": "second",
+            "descriptionURL": "https://codeyourfuture.github.io/The-Piscine/days/octopuses.txt"
+        }
 ]

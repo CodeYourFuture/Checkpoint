@@ -1,9 +1,38 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <script type="module" src="common.mjs"></script>
-        <script type="module" src="web.mjs"></script>
-    </head>
-    <body>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Authors: Roman, Basmalainine and Ifeyinwa. Our mid-year project. The GitHub link https://github.com/DraftRoman/The-Piscine"
+    />
+    <script type="module" src="common.mjs"></script>
+    <!-- <script type="module" src="web.mjs"></script> -->
+
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="month-carousel">
+        <button class="previous-month" aria-label="Previous month"><<</button>
+        <div id="month" class="month-value"><h1></h1></div>
+        <button class="next-month" aria-label="Next month">>></button>
+      </div>
+      <div>
+        <label for="year-selector">year: </label>
+        <select name="year-selector" id="year-selector">
+          <option value="1949">1949</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <section class="week-section"></section>
+    </main>
+    <footer class="footer">
+      <p>Presented by our team with love</p>
+    </footer>
+  </body>
+  <script type="module" src="script.js"></script>
 </html>

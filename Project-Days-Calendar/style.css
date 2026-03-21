@@ -1,0 +1,102 @@
+main {
+    display: grid;
+}
+.week-section {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+}
+#month {
+    width: 160px;
+}
+h1 {
+    margin: 0.2rem;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+h2 {
+    font-size: medium;
+}
+.dayOfTheWeek {
+    margin: 0.5rem;
+    text-align: center;
+}
+.fade {
+    text-align: center;
+    border: solid 1px;
+    margin: 5px;
+    padding-block: 1px;
+    padding-inline: 6px;
+    color: gray;
+    border-radius: 0.2rem;
+}
+.month-carousel{
+    display: flex;
+    flex-direction: row;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.days {
+    margin: 5px;
+    text-align: center;
+    border: solid 1px;
+    padding-block: 1px;
+    border-radius: 0.2rem;
+}
+.today {
+    background-color: green;
+    color: white;
+    font-weight: bold ;
+    border-radius: 0.2rem;
+    border: 0px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.event-item {
+    background: #e3f2fd;
+    font-size: 0.75rem;
+    margin: 2px 0;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    text-align: center;
+}
+.previous-month .next-month {
+    margin: 5px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+day-card {
+    border: 1px solid #ddd;
+    min-height: 80px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.delete-event-btn {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}

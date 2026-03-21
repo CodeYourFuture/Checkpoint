@@ -1,0 +1,86 @@
+
+:root {
+    --border-color: #444;
+    --error-color: #b00020;
+    --background-light: #f8f8f8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background: #ffffff;
+    color: #111;
+}
+
+main {
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+
+h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+
+textarea,
+section>div {
+    width: 100%;
+    min-height: 10rem;
+    padding: 0.75rem;
+    font: inherit;
+    border: 0.1rem solid var(--border-color);
+    border-radius: 0.4rem;
+    background: var(--background-light);
+}
+
+button {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    font: inherit;
+    border: 0.1rem solid var(--border-color);
+    background: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f0f0f0;
+}
+
+span button {
+    margin-left: 0.5rem;
+    margin-top: 0;
+    font-size: 0.85em;
+}
+
+
+.misspelled {
+    text-decoration: underline;
+    text-decoration-color: var(--error-color);
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 0.1rem solid var(--border-color);
+}
