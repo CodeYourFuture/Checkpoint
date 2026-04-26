@@ -30,7 +30,7 @@ We have also provided a `storage.js` file, which contains four functions to help
 
 ## Requirements
 
-You must submit both a link to your GitHub repo, and a link to the deployed website.
+You must submit both a link to your GitHub repo, and a link to the deployed website. Your project must meet all [project submission requirements](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission).
 
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 
@@ -47,6 +47,8 @@ Each bookmark should also have:
 Your website must include a form with text inputs for the URL, title, and description, and submit button that allows a user to add a new topic. This form must be accessible, so for example, a user using the keyboard should be able to submit it without using a mouse.
 
 After the new data has been stored, the updated list of bookmarks must be displayed (including the new bookmark) for the relevant user.
+
+The data should persist across sessions, so if you close your browser then re-open it and select the same user, the data must still be there. The data is not expected to be viewable from another computer - storage is only local.
 
 Your GitHub repository must contain unit tests which demonstrate that your code works. End to end tests are optional.
 

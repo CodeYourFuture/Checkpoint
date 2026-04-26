@@ -24,7 +24,7 @@ We have also provided a `storage.js` file, which contains three functions to hel
 
 This may be an individual or a team project - your class leaders will tell you which you are doing. If it is a team project, they will also tell you how the groups will work.
 
-You must submit both a link to your GitHub repo, and a link to the deployed website.
+You must submit both a link to your GitHub repo, and a link to the deployed website. Your project must meet all [project submission requirements](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission).
 
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 

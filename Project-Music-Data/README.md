@@ -21,7 +21,7 @@ We have provided a `data.js` file, which contains three functions to provide dat
 
 This is an individual project. You are expected to work on it on your own. You can talk to other trainees and volunteers and get help and advice, but you should write all of the code yourself.
 
-You must submit both a link to your GitHub repo, and a link to the deployed website.
+You must submit both a link to your GitHub repo, and a link to the deployed website. Your project must meet all [project submission requirements](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission).
 
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 

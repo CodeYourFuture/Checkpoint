@@ -8,9 +8,7 @@ Your task is to create a website which allows a user to input a list of Codewars
 
 ## Requirements
 
-<!-- TODO: Decide whether this is an individual or group project, then include instructions here -->
-
-You must submit both a link to your GitHub repo, and a link to the deployed website.
+You must submit both a link to your GitHub repo, and a link to the deployed website. Your project must meet all [project submission requirements](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission).
 
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 
@@ -35,6 +33,8 @@ If a user does not have a ranking for the currently selected language, the user 
 The user with the highest score should be highlighted in some (fun!) way so that their achievement can be celebrated.
 
 Your GitHub repository must contain unit tests which demonstrate that your code works.
+
+Every view of your website must be accessible (i.e. for each user, with any number of topics, etc). We will test this by making sure that "Snapshot" mode of Lighthouse gives 100% accessibility for any view we look at.
 
 ### Supplied test scaffolding
 
