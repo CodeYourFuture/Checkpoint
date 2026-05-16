@@ -1,8 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
+    <title>Project - Shared Bookmarks</title>
     <script type="module" src="script.js"></script>
   </head>
   <body>
+    <label for="bookmark-user">Select a user: </label>
+
+    <select name="users" id="bookmark-user"></select>
+
+    <form id="bookmark-form">
+      <label for="url">Bookmark URL: </label>
+      <input type="text" id="url" name="url" required />
+
+      <label for="title">Bookmark Title: </label>
+      <input type="text" id="title" name="title" required />
+
+      <label for="description">Bookmark Description: </label>
+      <textarea id="description" name="description"></textarea>
+
+      <button type="submit">Add Bookmark</button>
+    </form>
+
+    <div id="bookmark-list"></div>
+
+    <div id="no-bookmarks">No bookmarks found.</div>
   </body>
 </html>
