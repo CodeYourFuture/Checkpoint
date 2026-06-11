@@ -14,7 +14,6 @@ Recommended as individual projects:
 - [Spaced Repetition Tracker](./Project-Spaced-Repetition-Tracker)
 - [Music Data](./Project-Music-Data)
 - [Codewars Leaderboard](./Project-Codewars-Leaderboard)
-- [Spell Checker](./Project-Spell-Checker)
 
 In each project folder you will find a readme with the project requirements and any setup files.
 
