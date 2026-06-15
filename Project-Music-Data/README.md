@@ -11,11 +11,11 @@ Some principles to remember throughout this project:
 1. This is a project about data processing, not UI. You should make a simple frontend to show the data in valid semantic HTML. No credit will be given for making prettier or more complicated frontend. You are allowed to use CSS, but you are strongly advised to focus on the logic, and only add styling when you are finished. You will not get any credit for styling.
 2. You should assume the data will change in the future, but will have the same schema. So you shouldn't pre-compute anything. Your code should always read the data and calculate results from scratch.
 
-We have provided a `data.js` file, which contains three functions to provide data for you to analyse. `data.js` is a file containing four functions:
+We have provided a `data.js` file, which contains three functions to provide data for you to analyse. Those functions are:
 
 1. `getUserIDs()`: when called, returns an array of strings, each of which is a user ID.
-1. `getListenEvents(userID)`: when called, returns an array of objects, each of which contains information about a single time that the given user listened to a song. The listen events are sorted by when they happened, oldest to newest. The timestamps should be interpreted as in the user's current local time zone.
-2. `getSong(songID)`: when called with one string as an argument, returns an an object containing information about a single song.
+2. `getListenEvents(userID)`: when called, returns an array of objects, each of which contains information about a single time that the given user listened to a song. The listen events are sorted by when they happened, oldest to newest. The timestamps should be interpreted as in the user's current local time zone.
+3. `getSong(songID)`: when called with one string as an argument, returns an an object containing information about a single song.
 
 ## Requirements
 
