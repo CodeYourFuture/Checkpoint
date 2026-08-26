@@ -12,6 +12,8 @@ You must submit both a link to your GitHub repo, and a link to the deployed webs
 
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 
+Your project must be written in JavaScript (with HTML and CSS).
+
 You must be able to explain every line of code in your project, even ones other people in your group wrote.
 
 You should assume that Codewars ranks will change in the future. So you **must not** pre-compute anything. Your code should always read the data and calculate results from scratch.
@@ -59,10 +61,10 @@ All of the below requirements must be met for the project to be considered compl
 - The table is sorted from the highest to lowest score, top to bottom
 - Users without a ranking in a chosen language are not shown in that table
 - The top user's score is visually highlighted
-- The website must score 100 for accessibility in Lighthouse
+- The website must score 100% for accessibility in Lighthouse in the Desktop view
 - Unit tests must be written for at least one non-trivial function
 - Searching for a user which doesn't exist should show a message to the user explaining this.
-  - If multiple users were searched for, it is acceptable to either just error, or to show the valid users, but the user should be made aware of the invalid users.
+  - If multiple users were searched for, it is acceptable to either just error, or to show the valid users, but the user should be made aware of each of the invalid users.
 - If fetching from the Codewars API errors (e.g. because you're offline, or made a bad request), the user must be shown a useful error message in the UI.
 
 Below is an example of a table showing the overall ranking for 3 users: CodeYourFuture, SallyMcGrath and 40thieves.
