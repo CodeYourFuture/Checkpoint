@@ -66,7 +66,7 @@ All of the below requirements must be met for the project to be considered compl
 - Searching for a user which doesn't exist should show a message to the user explaining this.
   - If multiple users were searched for, it is acceptable to either just error, or to show the valid users, but the user should be made aware of each of the invalid users.
 - If fetching from the Codewars API errors (e.g. because you're offline, or made a bad request), the user must be shown a useful error message in the UI.
-- Any error messages must make clear what likely went wrong, and it should be clear what the user should do about it to rectify the situation.
+- Error messages should not make misleading claims about what went wrong, and it should be clear what the user should do about it to rectify the situation.
 
 Below is an example of a table showing the overall ranking for 3 users: CodeYourFuture, SallyMcGrath and 40thieves.
 
