@@ -32,6 +32,8 @@ We have also provided a `storage.js` file, which contains four functions to help
 
 You must submit both a link to your GitHub repo, and a link to the deployed website. Your project must meet all [project submission requirements](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission).
 
+Your project must be written in JavaScript (with HTML and CSS).
+
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 
 Your website must include a drop-down to select a user to display information for. When a user is selected, you must display the list of bookmarks for that user. If there are no bookmarks for the user, you should present a message explaining this.
@@ -69,5 +71,5 @@ All of the below requirements must be met for the project to be considered compl
 - The website must contain a form with inputs for a URL, a title, and a description. The form should have a submit button.
 - Submitting the form adds a new bookmark for the relevant user only
 - After creating a new bookmark, the list of bookmarks for the current user is shown, including the new bookmark
-- The website must score 100 for accessibility in Lighthouse
+- The website must score 100% for accessibility in Lighthouse in the Desktop device mode, for all views in the website
 - Unit tests must be written for at least one non-trivial function

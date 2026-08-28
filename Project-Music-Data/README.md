@@ -23,6 +23,8 @@ This is an individual project. You are expected to work on it on your own. You c
 
 You must submit both a link to your GitHub repo, and a link to the deployed website. Your project must meet all [project submission requirements](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission).
 
+Your project must be written in JavaScript (with HTML and CSS).
+
 Your website must be hosted on the internet, and must be automatically deployed when you merge changes to your GitHub repo.
 
 Your website must include a drop-down to select a user to display information for. When a user is selected, you must display answers to all of the questions for that user. If a question doesn't apply to that user, you should not show the question.
@@ -60,7 +62,7 @@ All of the below requirements must be met for the project to be considered compl
   * If a question doesn't apply (e.g. if no songs were ever listened to on a Friday night), the interface should completely hide the question and answer. Displaying the question and an empty result, or any kind of error, is not acceptable.
   * If fewer than three (but more than zero) genres were listened to the site should list the top genres listened to. It must not display text like "Top 3 genres", but may say "Top genres" or "Top 2 genres" or similar.
 * Unit tests must be written for at least one non-trivial function.
-* The website must score 100 for accessibility in Lighthouse
+* The website must score 100% for accessibility in Lighthouse in the Desktop device mode, for all views in the website
 
 Bonus points (which don't mean anything):
 
