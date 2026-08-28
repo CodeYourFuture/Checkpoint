@@ -78,7 +78,7 @@ All of the below requirements must be met for the project to be considered compl
 - The form has validation to ensure that both the topic name and and selected date have been set by the user
 - Submitting the form adds a new topic to revise for the relevant user only. The topic’s dates to revise are calculated as one week, one month, three months, six months and one year from the selected date (see manual testing below)
 - After creating a new topic to revise, the agenda for the current user is shown, including the new topic
-- The website must score 100% for accessibility in Lighthouse in the Desktop view.
+- The website must score 100% for accessibility in Lighthouse in the Desktop device mode, for all views in the website
 - Unit tests must be written for at least one non-trivial function
 
 Below are some manual testing steps and expected results, which will be run on all websites to fairly assess them. All of the dates are intended to be exact - if dates are off by one day, that counts as a failure.

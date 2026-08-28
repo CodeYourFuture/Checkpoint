@@ -61,7 +61,7 @@ All of the below requirements must be met for the project to be considered compl
 - The table is sorted from the highest to lowest score, top to bottom
 - Users without a ranking in a chosen language are not shown in that table
 - The top user's score is visually highlighted
-- The website must score 100% for accessibility in Lighthouse in the Desktop view
+- The website must score 100% for accessibility in Lighthouse in the Desktop device mode, for all views in the website
 - Unit tests must be written for at least one non-trivial function
 - Searching for a user which doesn't exist should show a message to the user explaining this.
   - If multiple users were searched for, it is acceptable to either just error, or to show the valid users, but the user should be made aware of each of the invalid users.
