@@ -80,6 +80,7 @@ All of the below requirements must be met for the project to be considered compl
 - After creating a new topic to revise, the agenda for the current user is shown, including the new topic
 - The website must score 100% for accessibility in Lighthouse in the Desktop device mode, for all views in the website
 - Unit tests must be written for at least one non-trivial function
+- The project must not contain any dead code. All written JavaScript and CSS must be used.
 
 Below are some manual testing steps and expected results, which will be run on all websites to fairly assess them. All of the dates are intended to be exact - if dates are off by one day, that counts as a failure.
 
