@@ -73,3 +73,4 @@ All of the below requirements must be met for the project to be considered compl
 - After creating a new bookmark, the list of bookmarks for the current user is shown, including the new bookmark
 - The website must score 100% for accessibility in Lighthouse in the Desktop device mode, for all views in the website
 - Unit tests must be written for at least one non-trivial function
+- The project must not contain any dead code. All written JavaScript and CSS must be used.
