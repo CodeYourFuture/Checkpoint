@@ -1,13 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Codewars leaderboard</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css">
+    <title>Codewars leaderboard</title>
+    <h1>Codewars</h1>
+  </head>
+  <body>
+    <p>please enter usernames</p>
+    <input / id="users"placeholder ="CodeYourFuture,SallyMcGrath,40thieves">
+    <button id = submit> Submit</button>
 
-<script src="index.mjs" type="module"></script>
+    <select id="langDropDown">
+    </select>
+
+    <table id="wholeTable">
+      <thead>
+      <tr>
+        <th>Username</th>
+        <th>Clan</th>
+        <th>Score</th>
+      </tr>
+      </thead>
+      <tbody id="tableBody">
+        
+      </tbody>
+    </table>
+    <p id="unfound"></p>
+  </body>
+
+  <script src="index.mjs" type="module"></script>
 </html>
